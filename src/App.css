@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.loginLogo img {
+  width: 62px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.validationErr {
+  color: red;
+}
+
+.approved_cls {
+  color: green;
+}
+
+.rejected_cls {
+  color: red;
+}
+
+.swal2-title {
+  color: #10161c !important;
+}
+
+.loginLogo {
+  /* background: #11161e; */
+  padding: 10px;
+  border-radius: 13px;
+}
+
+
+
+/* .loginLogo img{
+  width: 40%;
+} */
+.table_filter {
+  float: right;
+}
+
+
+.as-react-table table thead {
+  color: #fff;
+  background: #551a8b;
+}
+
+.pagination li.page-item {
+  line-height: 5px;
+}
+
+.box-body {
+  overflow-x: auto;
+}
+
+/* width */
+.as-react-table::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+.as-react-table::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.as-react-table::-webkit-scrollbar-thumb {
+  background: #bd8320;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.as-react-table::-webkit-scrollbar-thumb:hover {
+  background: #bd8320;
+}
+
+.table-foot {
+  margin-bottom: 11px;
+}
+
+.swal2-styled.swal2-confirm {
+  background: linear-gradient(80deg, #bd8320, #1a1a1a) !important;
+}
+
+@media (max-width: 768px) {
+  .mobile-btm {
+    margin-top: 25px;
+  }
+
+  form#dataformid input {
+
+    margin-bottom: 26px;
+  }
+
+  .formbtndiv {
+    display: inline !important;
+    margin-right: 20px;
+  }
+
+  form#dataformid {
+    display: inline !important;
+
+  }
+  .btnblock .mainbutton {
+    width: 100%;
+    margin-bottom: 23px;
+  }
+  .asrt-page-length {
+    margin-bottom: 20px;
+}
+
+}
+@media (max-width: 425px) {
+  .user_profile {
+    height: 125px;
+
+}
+.box-body ul li {
+  width: 50%;
+}
+
+img.cryto_icons {
+  width: 30px;
+  margin: 10px 0px;
+}
+}
